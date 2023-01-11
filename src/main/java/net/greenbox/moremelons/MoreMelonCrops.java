@@ -8,7 +8,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
-public class MoreMelonBlocks {
+public class MoreMelonCrops {
 
     public static final Block DIRT_MELON_CROP = registerBlockWithoutItem("dirt_melon_crop", new DirtMelonCrop(FabricBlockSettings.copyOf(Blocks.MELON_STEM)));
 

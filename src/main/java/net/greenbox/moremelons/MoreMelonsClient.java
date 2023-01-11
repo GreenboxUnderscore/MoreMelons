@@ -8,6 +8,6 @@ public class MoreMelonsClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
-        BlockRenderLayerMap.INSTANCE.putBlock(MoreMelonBlocks.DIRT_MELON_CROP, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(MoreMelonCrops.DIRT_MELON_CROP, RenderLayer.getCutout());
     }
 }

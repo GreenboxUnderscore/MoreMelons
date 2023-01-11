@@ -14,6 +14,6 @@ public class MoreMelonsMod implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Hello Fabric world!");
 		MoreMelonsItems.load();
-		MoreMelonBlocks.load();
+		MoreMelonCrops.load();
 	}
 }
